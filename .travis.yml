@@ -11,6 +11,7 @@ cache:
   - $HOME/.sonar/cache
 addons:
   postgresql: '9.4'
+  mariadb: '10.0'
 env:
   global:
   - BUILD_DIR="`pwd`/build"
